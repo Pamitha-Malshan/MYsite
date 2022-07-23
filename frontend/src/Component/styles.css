@@ -1,9 +1,20 @@
+/* /* 
+/* .light-mode {
+      --background: white;
+}
+
+
+
+  .dark-mode {
+    --background: rgb(17, 16, 16);
+  } */
+
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
   }
-  #root {
+   #root {
     height: 100%;
   }
   
@@ -17,7 +28,7 @@
     font-size: 40px;
   }
   
-  .dark-mode {
+  /* .dark-mode {
     background-color: #1a1919;
     color: #999;
     height: 100%;
@@ -29,7 +40,11 @@
     color: #333;
     height: 100%;
     transition: background-color 0.25s ease-in-out;
-  }
+  } */
+
+  /* .back{
+    background: var(--background);
+  } */
   
   .container {
     display: flex;
@@ -112,4 +127,4 @@
   .switch-checkbox {
     padding: 10px;
   }
-  
+   

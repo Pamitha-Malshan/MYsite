@@ -1,7 +1,11 @@
 import React from "react";
 import {Link} from 'react-scroll'
 
+
+
 function Header() {
+
+ 
   return (
     <div>
         
@@ -32,15 +36,18 @@ function Header() {
         <li class="nav-item">
           <Link class="nav-link" to="project" smooth={true} durayion={1000}><h5 className="nav">Project</h5></Link>
         </li>
+        <li class="nav-item">
+        
+        </li>
       </ul>
     </div>
   </div>
 </nav>
 
 
-      
      
     </div>
+    
   );
 }
 

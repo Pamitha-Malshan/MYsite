@@ -20,7 +20,7 @@ export default function App() {
       <div>
         <center>
         <h1>Cool its {darkMode ? "Dark" : "Light"} Mode </h1>
-
+<div class="back">
         <table>
             <tr>
                 <th>
@@ -32,7 +32,7 @@ export default function App() {
                 </th>
             </tr>
         </table>
-
+        </div>
         </center>
       </div>
     </div>

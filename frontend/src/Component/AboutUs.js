@@ -1,10 +1,11 @@
 import react from 'react';
+import "./main.css";
 
 function AboutUs(){
 
 
     return(
-        <div>
+        <div class="aboutusbackground">
             <br/>
             <br/>
             <br/>
@@ -12,11 +13,10 @@ function AboutUs(){
             <center>
             <p class="head">About me</p>
             <div class="container">
-            <div class="shadow-lg p-3 mb-5 bg-body rounded">
+            <div class="aboutUs">
               <div class="row">
-                  <div class="col order-1">
-                  <img src={require('../Image/about.jpeg')} style={{width:"250px", height:"400px",borderRadius:"20px", }}/>
-                  </div>
+              <img src={require('../Image/about.jpeg')} className="photo"/>
+                  
              
             <div class="col order-2">
             <div style={{padding:"5%"}}>
